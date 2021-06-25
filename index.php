@@ -35,7 +35,7 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 </head>
 <body>
-
+    <!-- versione non censurata -->
     <div class="versione-base">
         <h2>
             Versione non censurata
@@ -46,20 +46,19 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
             ?> 
         </h3>
     </div>
+        
 
+    <!-- versione censurata -->
     <div class="versione-censurata">
         <h2>
             Versione censurata
         </h2>
         <h3>
-    
             <?php 
                 $censuraApplicata = str_replace($_GET["censura"], '***', $paragrafo);
                 echo $censuraApplicata . "<br/>" . " Lunghezza paragrafo : " . strlen($censuraApplicata);
             ?> 
         </h3>
     </div>
-   
-   
 </body>
 </html>
