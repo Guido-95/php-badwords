@@ -17,16 +17,15 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
     <title>Document</title>
 
     <style>
-        h2,h3{
+        h2,h3 {
             text-align:center;
             padding:5px;         
         }
-
-        .versione-base{
+        .versione-base {
             border:1px solid black;
             background-color: lightgreen;    
         }
-        .versione-censurata{
+        .versione-censurata {
             margin-top:20px;
             border:1px solid black;
             background-color:lightgreen;
